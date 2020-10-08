@@ -1,10 +1,12 @@
+// ------------------ Toggle Navigation Menu --------------------
+
 $(document).ready(function() {
     $(".menu-icon").on("click", function() {
           $("nav ul").toggleClass("showing");
     });
 });
 
-// Scrolling Effect
+// ------------------ Scrolling Effect --------------------
 
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
@@ -15,3 +17,4 @@ $(window).on("scroll", function() {
           $('nav').removeClass('black');
     }
 })
+

@@ -108,7 +108,7 @@ nav ul li a:hover {
     display: none;
 }
 
-.fa{
+.fa-bars{
     font-size: 30px;
 }
 
@@ -143,6 +143,42 @@ nav ul li a:hover {
 .treatwell-link:active{
     color: red;
 }
+
+/* ---------------------- Courses section  -------------------------*/
+
+.courses{
+    text-align: center;
+}
+
+.course-content{
+    display: inline-block;
+    width: 800px;
+}
+
+.salon-course{
+    width: 400px;
+    display: inline-block;
+}
+
+.salon-course:nth-child(2){
+    float: right;
+}
+
+.salon-course > p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fa-book{
+    padding-bottom: 20px;
+}
+
+h4, h6{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
 /* ---------------------- Website Footer  -------------------------*/
 
 footer{
